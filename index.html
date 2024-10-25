@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="prostyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Your mobiles Showroom</title>
+
+</head>
+
+<body>
+
+    <!-- Headersection starts -->
+
+    <header class="header">
+
+        <i id="menu-btn" class="fa-solid fa-bars"></i>
+
+        <!-- <button id="menu-btn" onclick="hide()">
+            Menu
+            <i class="fa-solid fa-bars"></i>
+        </button> -->
+
+
+        <a href="#" class="logo"><span>MAI MOBILES</span></a>
+
+        <nav class="navbar" id="navbar">
+            <a href="#Home">Home</a>
+            <a href="#Brand">Brands</a>
+            <a href="#Vehicles">Mobiles</a>
+            <a href="#services">Services</a>
+            <a href="#featured">Mobile featured</a>
+            <a href="#review">Reviews</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div id="login-btn">
+            <button class="btn">login</button>
+            <button class="btn01">Dark</button>
+            <i style='font-size:24px' class='fas'>&#xf406;</i>
+            <!-- <i class='fas'>&#xf406;</i> -->
+        </div>
+
+    </header>
+
+    <!-- Headersection ends -->
+
+
+
+    <!-- LOGIN FORM STARS -->
+
+    <div class="login-form">
+
+        <span id="close-login-form" class="fa-solid fa-xmark"></span>
+
+        <!-- <i class="fa-solid fa-xmark"></i> -->
+        <form action="">
+            <h3>User login</h3>
+            <input type="email" placeholder="email" class="box">
+            <input type="password" placeholder="password" class="box">
+            <p>Forget your password <a href="#">click here</a></p>
+            <input type="submit" value="login" class="btn">
+            <p>or login with</p>
+            <div class="buttons">
+                <a href="#" class="btn">google</a>
+                <a href="#" class="btn">facebook</a>
+            </div>
+            <p>don't have an account <a href="#" id="create-btn">create</a></p>
+
+        </form>
+
+    </div>
+
+    <!-- LOGIN FORM ENDS -->
+
+
+    <!-- CREATE FORM STARS -->
+
+    <div class="create-form">
+
+        <span id="create-form-close" class="fa-solid fa-xmark"></span>
+
+        <!-- <i class="fa-solid fa-xmark"></i> -->
+        <form action="">
+            <h3>Create Account</h3>
+            <input type="text" placeholder="First name" class="box">
+            <input type="text" placeholder="Last name" class="box">
+            <input type="email" placeholder="email" class="box">
+            <input type="password" placeholder="password" class="box">
+            <input type="submit" value="Sign up" class="btn">
+            <p>already have an account <a href="#" id="login2">Login</a></p>
+        </form>
+
+    </div>
+
+    <!-- CREATE FORM ENDS -->
+
+
+
+    <!-- HOME SECTION START -->
+
+
+    <section class="home" id="Home">
+        <!-- data-* attribute gives ability to acces stored data in all html elements. wecan use this data attribute directly in Js  -->
+
+        <h1 class="home-page" data-speed="-2">BUY EXCLUSIVE MOBILES </h1>
+        <img src="background....01-removebg-preview.png" alt="" class="home-page" data-speed="5">
+        <a href="#Vehicles" class="home-page" data-speed="7">Explore Mobiles</a>
+
+    </section>
+
+
+
+    <!-- HOME SECTION ENDS -->
+
+
+    <!-- ICONS TO TELL MORE ABOUT OUR Showroom  -->
+
+    <section class="icons-container">
+        <div class="icons">
+            <i class="fa fa-home"></i>
+            <div class="content">
+                <h3>50+</h3>
+                <p>branches</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fa-solid fa-mobile"></i>
+            <div class="content">
+                <h3>690+</h3>
+                <p>mobile sold</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fa fa-users"></i>
+            <div class="content">
+                <h3>490+</h3>
+                <p>happy clients</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fa-solid fa-mobile"></i>
+            <div class="content">
+                <h3>99+</h3>
+                <p>new mobiles</p>
+            </div>
+        </div>
+    </section>
+    <!-- BRANDS SECTION STARTS -->
+    <section id="Brand" class="brand">
+        <h1 class="heading">Mobile <span> Brand</span></h1>
+        <div class="collection">
+            <a href="#">
+                <img src="iphpne.png" alt="iphone">
+                <h3>IPHONE</h3>
+            </a>
+            <a href="#"><img src="vivo (1).jpg" alt="vivo">
+                <h3>VIVO</h3>
+            </a>
+            <a href="#"><img src="WhatsApp Image 2024-02-13 at 20.17.53_323c287f.jpg" alt="oppo">
+                <h3>OPPO</h3>
+            </a>
+            <a href="#"><img src="samsung.png" alt="samsung">
+                <h3>SAMSUMG</h3>
+            </a>
+            <a href="#"><img src="mi.jpg" alt="radmi">
+                <h3>REDMI</h3>
+            </a>
+            <a href="#"><img src="realme.png" alt="realme">
+                <h3>RAELME</h3>
+            </a>
+            <a href="#"><img src="onepluse.22.png" alt="oneplus">
+                <h3>ONEPLUS</h3>
+            </a>
+            <a href="#"><img src="WhatsApp Image 2024-02-13 at 20.17.04_6e28e8e1.jpg" alt="poco">
+                <h3>POCO</h3>
+            </a>
+        </div>
+    </section>
+    <!-- BRANDS SECTION ENDS-->
+
+    <!-- VEHICLES SECTION STARTS -->
+
+    <section id="Vehicles" class="Vehicles">
+
+        <h1 class="heading"> AVAILABLE<span> MOBILE</span></h1>
+
+        <div class="swiper vehicles-s">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="IMG-20240213-WA0085-removebg-preview.png" alt="">
+                    <div class="content">
+                        <h3>IPHONE 15 Plus</h3>
+                        <div class="price"><span>Price: </span> 80-95k/-</div>
+                        <p>
+                            AUGUMENT REALITY(AR)
+                            <span class="fas fa-circle"></span>AI
+                            <span class="fas fa-circle"></span>Foldable Devices
+                            <span class="fas fa-circle"></span>5G AND BEYOUND
+                            <span class="fas fa-circle"></span>INTERNET OF THINGS
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="IMG-20240213-WA0108-removebg-preview.png" alt="">
+                    <div class="content">
+                        <h3>REALME C51 </h3>
+                        <div class="price"><span>Price: </span> 9-70 k/-</div>
+                        <p>
+                            AUGUMENT REALITY(AR)
+                            <span class="fas fa-circle"></span>AI
+                            <span class="fas fa-circle"></span>Foldable Devices
+                            <span class="fas fa-circle"></span>5G AND BEYOUND
+                            <span class="fas fa-circle"></span>INTERNET OF THINGS
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="poco.0004.png" alt="">
+                    <div class="content">
+                        <h3>POCO M5</h3>
+                        <div class="price"><span>Price: </span> 10-70 k/-</div>
+                        <p>
+                            AUGUMENT REALITY(AR)
+                            <span class="fas fa-circle"></span>AI
+                            <span class="fas fa-circle"></span>Foldable Devices
+                            <span class="fas fa-circle"></span>5G AND BEYOUND
+                            <span class="fas fa-circle"></span>INTERNET OF THINGS
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="onepluse.0003.png" alt="">
+                    <div class="content">
+                        <h3>ONEPLUS</h3>
+                        <div class="price"><span>Price: </span> 8-70 k/-</div>
+                        <p>
+                            AUGUMENT REALITY(AR)
+                            <span class="fas fa-circle"></span>AI
+                            <span class="fas fa-circle"></span>Foldable Devices
+                            <span class="fas fa-circle"></span>5G AND BEYOUND
+                            <span class="fas fa-circle"></span>INTERNET OF THINGS
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="oppo.0002.png" alt="">
+                    <div class="content">
+                        <h3>OPPO</h3>
+                        <div class="price"><span>Price: </span> 70-75 k /-</div>
+                        <p>
+                            AUGUMENT REALITY(AR)
+                            <span class="fas fa-circle"></span>AI
+                            <span class="fas fa-circle"></span>Foldable Devices
+                            <span class="fas fa-circle"></span>5G AND BEYOUND
+                            <span class="fas fa-circle"></span>INTERNET OF THINGS
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="IMG-20240213-WA0022-removebg-preview.png" alt="">
+                    <div class="content">
+                        <h3>SUMSUMG GALAXY</h3>
+                        <div class="price"><span>Price: </span> 15k-1L /-</div>
+                        <p>
+                            AUGUMENT REALITY(AR)
+                            <span class="fas fa-circle"></span>AI
+                            <span class="fas fa-circle"></span>Foldable Devices
+                            <span class="fas fa-circle"></span>5G AND BEYOUND
+                            <span class="fas fa-circle"></span>INTERNET OF THINGS
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="IMG-20240213-WA0011-removebg-preview.png" alt="">
+                    <div class="content">
+                        <h3>READMI</h3>
+                        <div class="price"><span>Price: </span> 25-30 k/-</div>
+                        <p>
+                            AUGUMENT REALITY(AR)
+                            <span class="fas fa-circle"></span>AI
+                            <span class="fas fa-circle"></span>Foldable Devices
+                            <span class="fas fa-circle"></span>5G AND BEYOUND
+                            <span class="fas fa-circle"></span>INTERNET OF THINGS
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="IMG-20240213-WA0013-removebg-preview.png" alt="">
+                    <div class="content">
+                        <h3>VIVO</h3>
+                        <div class="price"><span>Price: </span> 12-90 k /-</div>
+                        <p>
+                            AUGUMENT REALITY(AR)
+                            <span class="fas fa-circle"></span>AI
+                            <span class="fas fa-circle"></span>Foldable Devices
+                            <span class="fas fa-circle"></span>5G AND BEYOUND
+                            <span class="fas fa-circle"></span>INTERNET OF THINGS
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <!-- VEHICLEs SECTION ENDS -->
+
+
+    <section class="featured" id="featured">
+        <h1 class="heading"><span>MOBILE </span></h1>
+
+        <div class="swiper featured-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="moya.png" alt="">
+                    <h3>SAMSUNG Galaxy M34 5G</h3>
+                    <h4>128 GB 8GB RAM</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">Rs 27,999/-</div>
+                    <a href="#" class="btn">check out</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="IMG-20240213-WA0070-removebg-preview1.png" alt="">
+                    <h3>SAMSUNG Galaxy S14 5G</h3>
+                    <h4>128GB 4GB RAM</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">Rs 19,999/-</div>
+                    <a href="#" class="btn">check out</a>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="IMG-20240213-WA0074-removebg-preview.png" alt="">
+                    <h3>SAMSUNG Galaxy S21 5G</h3>
+                    <h4>128 GB 8GB RAM</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">Rs 29,999/-</div>
+                    <a href="#" class="btn">check out</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="oppo.0006.png" alt="">
+                    <h3>OPPO N3 FLIP</h3>
+                    <h4>256 GB 12GB RAM</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">Rs 94,999/-</div>
+                    <a href="#" class="btn">check out</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="opepluse.0005.png" alt="">
+                    <h3>ONEPLUS Nord CE3 5G</h3>
+                    <h4>128 GB 8GB RAM</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+
+                    </div>
+                    <div class="price">Rs 23,999 /-</div>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="swiper featured-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="realme.0007.png" alt="">
+                    <h3>REALME Narzo 60 Pro 5G</h3>
+                    <h4>128GB 8GB RAM</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">Rs 21,999 -</div>
+                    <a href="#" class="btn">check out</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="iphone.0008.png" alt="">
+                    <h3>IPHONE 15</h3>
+                    <h4>128 GB</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">Rs 65,999/-</div>
+                    <a href="#" class="btn">check out</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="poco.0012.png" alt="">
+                    <h3>POCO M6 PRO 5G</h3>
+                    <h4>128GB 6GB RAM</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">Rs 11,499/-</div>
+                    <a href="#" class="btn">check out</a>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="vivo.0009.png" alt="">
+                    <h3>VIVO V29 5G</h3>
+                    <h4>256GB 12GB RAM</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">Rs 36,999/-</div>
+                    <a href="#" class="btn">check out</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="redmi.0010.png" alt="">
+                    <h3>REDMI 12 5G</h3>
+                    <h4>256GB 12GB RAM</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fa-regular fa-star-sharp"></i>
+                    </div>
+                    <div class="price">-</div>
+                    <a href="#" class="btn">check out</a>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </section>
+
+
+
+    <section id="services" class="services">
+        <h1 class="heading">Services</h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fa-solid fa-mobile"></i>
+                <h3>Selling</h3>
+                <p>We are Selling Low Budget and High Budget Mobiles!</p>
+                <p>for more details contact us</p>
+                <a href="#contact" class="btn">Enquire</a>
+            </div>
+            <div class="box">
+                <i class="fas fa-tools"></i>
+                <h3>Repair Service</h3>
+                <p>We are Repair Service provide For All type mobile.!</p>
+                <p>for more details contact us</p>
+                <a href="#contact" class="btn">Enquire</a>
+            </div>
+            <div class="box">
+                <i class="fas fa-car-cras"></i>
+                <h3>Warranty</h3>
+                <p>we are provide 1 year warranty.
+                <p>for more details contact us</p>!</p>
+                <a href="#contact" class="btn">Enquire</a>
+            </div>
+            <div class="box">
+                <i class="fas fa-gas-pum"></i>
+                <h3>Exchange Offer</h3>
+                <p></p>
+                <p>for more details contact us</p>
+                <a href="#contact" class="btn">Enquire</a>
+            </div>
+            <div class="box">
+                <i class="fas fa-headse"></i>
+                <h3>Support</h3>
+                <p>any problems we can Support for you. !</p>
+                <p>for more details contact us</p>
+                <a href="#contact" class="btn">Enquire</a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- REVIEW SECTION STARTS  -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading">client's <span>review</span></h1>
+
+        <div class="review-slider">
+
+            <div class="box">
+                <img src="photo.0013.jpg" alt="person 1">
+                <div class="content">
+                    <p>IN this mobile website have the lowest price and Satisfied Mobiles And i am Satisfied.
+                    </p>
+                    <h3>Raiyan</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="box">
+                <img src="photo.0016.jpg" alt="person 2">
+                <div class="content">
+                    <p>buitiful and Models are very good,
+                        full style
+                    </p>
+                    <h3>Pirya.M</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="box">
+                <img src="photo.0014.jpg" alt="person 3">
+                <div class="content">
+                    <p>I Buy the new model phones and i am Satisfied.</p>
+                    <h3>manigandan</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="box">
+                <img src="photo.15.jpg" alt="person 4">
+                <div class="content">
+                    <p>I Like This mobile.</p>
+                    <h3>Ahmed.s</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- REVIEW SECTION ENDs -->
+
+    <!-- CONTACT SECTION -->
+
+    <section class="contact" id="contact">
+
+        <h3 class="heading"><span>Contact </span> us</h3>
+
+        <div class="row">
+            <img src="./contact.svg" alt="Contact US">
+            <form action="">
+                <h3>get in touch</h3>
+                <input type="text" placeholder="name" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="number" placeholder="mobile no" class="box">
+                <textarea placeholder="message" name="" id="" class="box" cols="30" rows="10"></textarea>
+                <input type="submit" value="send message" class="btn">
+            </form>
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- CONTACT SECTION ENDS -->
+
+
+    <!-- Footer Section HTML -->
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Our Branches</h3>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Mumbai </a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Chennai </a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Vellore </a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Hydrabad </a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Bangaluru </a>
+            </div>
+
+            <div class="box">
+                <h3>Quick links</h3>
+                <a href="#Home"><i class="fas fa-arrow-right"></i> Home </a>
+                <a href="#Brands"><i class="fas fa-arrow-right"></i> Brands </a>
+                <a href="#Vehicles"><i class="fas fa-arrow-right"></i> Vehicles </a>
+                <a href="#Service"><i class="fas fa-arrow-right"></i> Services </a>
+                <a href="#Featured cars"><i class="fas fa-arrow-right"></i> mobilefeatured </a>
+                <a href="#review"><i class="fas fa-arrow-right"></i> Reviews </a>
+                <a href="#contact"><i class="fas fa-arrow-right"></i> Contact </a>
+            </div>
+
+            <div class="box">
+                <h3>Contact</h3>
+                <a href="#"><i class="fas fa-phone"></i> +91-9798492345 </a>
+                <a href="#"><i class="fas fa-phone"></i> +111-555-6666 </a>
+                <a href="#"><i class="fas fa-envelope"></i> find@MAI MOBAILES.com </a>
+                <a href="#"><i class="fas fa-envelope"></i> services@MAI MOBILES.com </a>
+            </div>
+
+            <div class="box">
+                <h3>Quick links</h3>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i> facebook
+                </a>
+                <a href="https://twitter.com/?lang=en" target="_blank"><i class="fa-brands fa-twitter"></i> twitter
+                </a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i>
+                    instagram
+                </a>
+                <a href="https://in.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in"></i> linkedin
+                </a>
+
+            </div>
+
+        </div>
+        <div class="credit">
+            <center><b>By Your mobiles | All right reserve</b></center>
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER SECTION HTML ENDS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+    <script src="pro.js"></script>
+
+
+</body>
+
+</html>
